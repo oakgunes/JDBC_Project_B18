@@ -3,9 +3,9 @@ import java.sql.*;
 
 public class Main {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException {   //52.72.23.155
         //Replace the IP with your own IP address
-        String connectionStr = "jdbc:oracle:thin:@52.71.242.164:1521:XE";
+        String connectionStr = "jdbc:oracle:thin:@52.72.23.155:1521:XE";
         String username = "hr";
         String password = "hr";
 
@@ -29,6 +29,13 @@ public class Main {
         System.out.println("First column value " + rs.getString(1) + " or " + rs.getString("REGION_ID") );
         System.out.println("SECOND column value " + rs.getString(2) + " or " + rs.getString("REGION_NAME") );
         // test branch
+        rs.next();
+        System.out.println("3rd column value " + rs.getString(1) + " or " + rs.getString("Region_Id"));
+        System.out.println("3rd column value " + rs.getString(2)+ " or " + rs.getString("Region_Name"));
+
+        rs.next(); //without rs.next will not iterate the next row
+        System.out.println("4th column value " + rs.getString(1) + " or " + rs.getString("Region_Id"));
+        System.out.println("4th column value " + rs.getString(2)+ " or " + rs.getString("Region_Name"));
 
     }
 }

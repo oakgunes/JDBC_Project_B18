@@ -19,7 +19,7 @@ public class DB_Connection {
         // 1521:    port number of your database server ,  usually 1521 for oracle , 3306 for MySql Database
         // XE  :   SID name  unique identifier for the database we are connecting
         //  In a nutshell , see it as a full address of your database you can use to make connection
-        String connectionStr = "jdbc:oracle:thin:@52.71.242.164:1521:XE";
+        String connectionStr = "jdbc:oracle:thin:@52.72.23.155:1521:XE";
         String username = "hr" ;
         String password = "hr" ;
         // creating connection object using DriverManager's static method Connection ;
