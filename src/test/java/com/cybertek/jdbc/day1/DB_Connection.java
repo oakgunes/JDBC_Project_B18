@@ -25,6 +25,7 @@ public class DB_Connection {
         // creating connection object using DriverManager's static method Connection ;
         Connection conn = DriverManager.getConnection(connectionStr,username,password) ;
         System.out.println("THE END ");
+
     }
 
 }

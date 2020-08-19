@@ -27,7 +27,8 @@ public class IteratingPractice { //52.72.23.155
             System.out.println(rs.getString("COUNTRY_ID") + " " + rs.getString("COUNTRY_NAME"));
 
         }
-        //rs.previous(); //if we can use rs.previous dan will check  next iterartion we dont have any info will throw run time exception
+        // HOW DO I GO BACK TO PREVIOUS ROW
+        rs.previous(); //if we can use rs.previous dan will check  next iterartion we dont have any info will throw run time exception
         //but if we will not use it while condition will be false if we dont have any info and stop it
     }
 

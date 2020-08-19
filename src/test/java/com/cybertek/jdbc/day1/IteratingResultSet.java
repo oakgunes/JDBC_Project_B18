@@ -24,8 +24,6 @@ public class IteratingResultSet {
         //  CREATE A NEW CLASS , ADD CONNECTION , STATEMENT , RESULTSET
         // AND TRY TO PRINT OUT EACH AND EVERYTHING UNDER COUNTRIES TABLE
 
-
-
 //
 //        rs.next(); // currently we are at the first row
 //        System.out.println( rs.getString("REGION_ID") + " " + rs.getString("REGION_NAME") );
@@ -36,15 +34,11 @@ public class IteratingResultSet {
 //        rs.next(); // currently we are at the third row
 //        System.out.println( rs.getString("REGION_ID") + " " + rs.getString("REGION_NAME") );
 //
-////        rs.next();// currently we are at the forth row
-////        System.out.println( rs.getString(1) + " " + rs.getString(2) );
+//        rs.next();// currently we are at the forth row
+//        System.out.println( rs.getString(1) + " " + rs.getString(2) );
 //
 //        System.out.println(  rs.next()   );         ;// currently we are at the forth row
 //        //System.out.println( rs.getString(1) + " " + rs.getString(2) );
-
-
-
-
     }
 
 }
